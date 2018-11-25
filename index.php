@@ -5,11 +5,11 @@
 		
 					
 					//Variables
-                    $username = "bigfuzio_ads";
-                    $password = "dvdiogo218";
-                    $hostname = "149.56.31.235"; 
+                    $username = "user";
+                    $password = "pass";
+                    $hostname = "ip"; 
                     //$ip_user = $_SERVER['HTTP_CLIENT_IP'] ;
-                    $db_name = "bigfuzio_ads";
+                    $db_name = "database";
 
                     //connect to database
                     $connection = mysqli_connect($hostname, $username, $password);
